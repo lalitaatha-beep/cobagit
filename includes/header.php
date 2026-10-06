@@ -31,7 +31,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
             <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a>
 
+<<<<<<< HEAD
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Tentang Kampus</a>
+=======
+            <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Profil</a>
+>>>>>>> conflict-navbar
 
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi</a>
 
