@@ -38,4 +38,48 @@ require 'includes/header.php';
 
 </section>
 
-<?php require 'includes/footer.php'; ?>
+<section class="section section-soft">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="eyebrow">Fokus Pembelajaran</span>
+
+            <h2>Hal yang dipelajari dalam proyek</h2>
+
+        </div>
+
+        <div class="grid-3">
+
+            <article class="card">
+
+                <h3>Web Development</h3>
+
+                <p>Mempelajari pembuatan website menggunakan HTML, CSS, dan PHP native.</p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Database</h3>
+
+                <p>Mempelajari penggunaan MySQL atau MariaDB untuk menyimpan dan mengelola data.</p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Version Control</h3>
+
+                <p>Mempelajari Git dan GitHub untuk mengelola perubahan serta versi proyek.</p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<?php require 'includes/footer.php'; ?>>
